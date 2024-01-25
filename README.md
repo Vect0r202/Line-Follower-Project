@@ -1,4 +1,4 @@
-#Line-Follower Robot Project
+# Line-Follower Robot Project
 
 Overview
   This project showcases the design, assembly, and programming of a line-follower robot. The robot uses a set of sensors to detect and follow a predetermined path. It is an excellent example of practical robotics, combining hardware integration with software control.
@@ -16,12 +16,18 @@ Code Implementation
   The heart of our project lies in its code. We've used Arduino for programming the robot. Key features of our code include:
 
     -Sensor Calibration: Automated calibration for line detection, ensuring the robot adapts to different surfaces and line colors.
+    
     -PID Control Algorithm: Implementation of Proportional-Integral-Derivative (PID) control to maintain a steady and accurate path along the line.
+    
     -Motor Speed Control: Dynamic adjustment of motor speeds based on sensor input, allowing for smooth turns and straight lines.
+    
     -Core Functions
     -setup(): Initializes the sensors and motors, and runs the calibration sequence.
+    
     -loop(): Continuously calls pidControl() for real-time line following.
+    
     -pidControl(): Implements the PID algorithm to calculate the error between the robot's position and the line, adjusting motor speeds accordingly.
+    
     -setMotorSpeed(): Controls the speed and direction of each motor.
     
   Components Used
